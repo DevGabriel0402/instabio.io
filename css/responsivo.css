@@ -25,6 +25,12 @@
         margin-bottom: 15px;
     }
 
+    
+    .main-container .links {
+        gap: 10px;
+
+    }
+
     .links a {
         padding: 10px 100px;
     }
