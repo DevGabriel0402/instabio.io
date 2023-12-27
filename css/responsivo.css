@@ -1,0 +1,44 @@
+/* Desktop (col-lg) 992px+ */
+@media (min-width: 992px) {}
+
+
+/* Desktop e Tablets (col-md) 768px à 981px */
+@media (min-width: 768px) and (max-width: 981px) {}
+
+
+/*Tablets (col-sm) 576px à 767px */
+@media (min-width: 576px) and (max-width: 767px) {}
+
+
+
+
+/*Tablets e Celulares (col) 0px à 767px */
+
+@media (max-width: 767px) {
+    .main-container {
+        width: 350px;
+    }
+
+    .image-profile img {
+        width: 120px !important;
+        height: 120px;
+        margin-bottom: 15px;
+    }
+
+    .links a {
+        padding: 10px 100px;
+    }
+
+    .projetos,
+    .main-container .text-projetos {
+        padding-left: 15px;
+        padding-bottom: 5px;
+
+    }
+
+    .projetos::-webkit-scrollbar-track,
+    .projetos::-webkit-scrollbar-thumb {
+
+        background-color: transparent;
+    }
+}
