@@ -129,8 +129,7 @@ body {
     display: flex;
     position: absolute;
     right: 10px;
-    top: 10px;
-
+    top: 5px;
 }
 
 .links a:hover {
