@@ -11,6 +11,11 @@ body {
     background-color: #121218;
 }
 
+html::selection {
+    display: none;
+    background-color: transparent;
+}
+
 
 .circle1,
 .circle2,
@@ -64,7 +69,7 @@ body {
     border-top: 1px solid rgba(228, 221, 221, 0.2);
     border-left: 1px solid rgba(255, 255, 255, 0.2);
     background-color: rgba(12, 12, 12, 0.493);
-    backdrop-filter: blur(30px);
+    backdrop-filter: blur(25px);
     border-radius: 25px;
     display: flex;
     flex-direction: column;
@@ -105,7 +110,7 @@ body {
     flex-direction: column;
     justify-content: center;
     /* align-items: center; */
-    gap: 35px;
+    gap: 10px;
     margin-bottom: 50px;
 }
 
@@ -129,7 +134,8 @@ body {
     display: flex;
     position: absolute;
     right: 10px;
-    top: 8px;
+    top: 10px;
+
 }
 
 .links a:hover {
